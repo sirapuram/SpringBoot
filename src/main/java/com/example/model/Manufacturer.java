@@ -60,7 +60,7 @@ public class Manufacturer {
 
 
 	public void setActive(Boolean active) {
-		this.active = active;
+		this.active = active;//
 	}
 
 
