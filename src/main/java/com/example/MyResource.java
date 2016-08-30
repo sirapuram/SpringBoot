@@ -12,7 +12,7 @@ public class MyResource {
 	
 	@RequestMapping(value="/",produces=MediaType.TEXT_PLAIN_VALUE)	
 	public @ResponseBody String getDate(){
-		return new Date().toString();
+		return new Date().toString();//
 	}
 
 }
